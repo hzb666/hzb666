@@ -1,5 +1,6 @@
+<br>
 
-<img src="https://readme-typing-svg.demolab.com/?lines=Hi,+there 👋;Welcome to my page;&center=false&width=1000&height=50&size=32&font=Righteous"/>
+![](https://readme-typing-svg.demolab.com/?lines=Hi,+there+👋;Welcome+to+my+page;&center=false&width=1000&height=50&size=32&font=Righteous)
 
 <div  style="display: flex; justify-content: center;">
 <picture>
@@ -9,7 +10,8 @@
 </picture>    
 </div>
 
-
+<br>
+<br>
 
 - 🔭 I’m currently working on fullstack development
 - 🌱 I’m currently learning LLMs
@@ -19,15 +21,15 @@
 - 📫 How to reach me: email
 - 😄 Pronouns: he/him
 
+<br>
 
-
-<div style="display: flex; justify-content: center;">
+<div align="center">
 	<img src="https://img.shields.io/badge/python-blue?style=for-the-badge&logo=python&logoColor=white">
 	<img src="https://img.shields.io/badge/TypeScript-yellow?style=for-the-badge&logo=TypeScript&logoColor=white">
     <img src="https://img.shields.io/badge/C++-grey?style=for-the-badge&logo=cplusplus&logoColor=white">
 </div>
 
-
+<br>
 
 <div style="display: flex; justify-content: center">
 	<img src="https://github-readme-streak-stats.herokuapp.com/?user=hzb666&theme=transparent&hide_border=true"/>
