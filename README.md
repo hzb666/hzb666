@@ -31,7 +31,7 @@
 
 <br>
 
-<div style="display: flex; justify-content: center">
+<div align="center">
 	<img src="https://github-readme-streak-stats.herokuapp.com/?user=hzb666&theme=transparent&hide_border=true"/>
 	<img src="https://github-readme-stats.vercel.app/api/top-langs?username=hzb666&locale=en&hide_title=false&layout=compact&card_width=500&langs_count=10&theme=transparent&hide_border=false"/>
 </div>
