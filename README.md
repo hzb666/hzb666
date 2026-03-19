@@ -11,7 +11,6 @@
 
 
 
-
 - 🔭 I’m currently working on fullstack development
 - 🌱 I’m currently learning LLMs
 - 👯 I’m looking to collaborate on UI/UX design
