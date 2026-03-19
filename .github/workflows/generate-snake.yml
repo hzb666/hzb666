@@ -1,26 +1,36 @@
-name: generate-snake
+name: generate github-contribution-grid-snake
 
 on:
+  # run automatically every 2 hours
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
+    - cron: "0 0 * * *" 
+  
+  workflow_dispatch: # 允许手动触发
+  
 jobs:
-  generate-snake:
+  generate:
     runs-on: ubuntu-latest
+    permissions: 
+      contents: write # 允许写入仓库
+  
     steps:
-      - uses: actions/checkout@v2
-      - uses: Platane/snk@master
+      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
+      - name: generate github-contribution-grid-snake.svg
+        uses: Platane/snk@v3
         with:
-          # 你的 GitHub 的名称
-          github_user_name: hzb666
-          # 生成的 .gif 图存储的位置
-          gif_out_path: dist/github-snake.gif
-          # 生成的 .gif 图存储的位置
-          svg_out_path: dist/github-snake.svg
-      - uses: crazy-max/ghaction-github-pages@v2.5.0
+          github_user_name: hzb666  # 自动获取用户名
+          outputs: | #生成的svg文件的路径
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+  
+  
+      # push the content of <build_dir> to a branch
+      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
+      - name: push github-contribution-grid-snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v2.5.0
         with:
-          target_branch: output
-          build_dir: dist
+          target_branch: output #生成的svg文件的分支
+          build_dir: dist #生成的svg文件的路径
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{secrets.GH_TOKEN}}
