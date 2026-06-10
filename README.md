@@ -26,7 +26,7 @@
 <div align="center">
 	<img src="https://img.shields.io/badge/python-blue?style=for-the-badge&logo=python&logoColor=white">
 	<img src="https://img.shields.io/badge/TypeScript-yellow?style=for-the-badge&logo=TypeScript&logoColor=white">
-    <img src="https://img.shields.io/badge/C++-grey?style=for-the-badge&logo=cplusplus&logoColor=white">
+    <img src="https://img.shields.io/badge/Rust-orange?style=for-the-badge&logo=rust&logoColor=white">
 </div>
 
 <br>
