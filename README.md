@@ -14,7 +14,7 @@
 <br>
 
 - 🔭 I’m currently working on fullstack development
-- 🌱 I’m currently learning LLMs
+- 🌱 I’m currently learning LLMs, Rust
 - 👯 I’m looking to collaborate on UI/UX design
 - 🤔 I’m looking for help with generating new app ideas
 - 💬 Ask me about python, typescript
